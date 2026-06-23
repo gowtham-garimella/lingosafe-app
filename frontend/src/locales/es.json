@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "title": "LingoSafe Multilingüe",
+    "home": "Inicio",
+    "features": "Características",
+    "about": "Acerca de"
+  },
+  "hero": {
+    "title": "Construir Sin Fronteras",
+    "subtitle": "Una experiencia premium lista para producción que presenta localización de idioma instantánea y autenticación OTP segura en francés.",
+    "cta": "Empezar",
+    "learn_more": "Saber Más"
+  },
+  "features": {
+    "title": "Características Clave",
+    "i18n_title": "Traducción Instantánea",
+    "i18n_desc": "Cambie de idioma instantáneamente entre inglés, español, hindi, portugués y chino con persistencia de estado.",
+    "security_title": "Escudo de Idioma Francés",
+    "security_desc": "El acceso al francés requiere una OTP enviada a su dirección de correo electrónico verificada para mantener los estándares de seguridad.",
+    "design_title": "IU de Glassmorphism",
+    "design_desc": "Experimente una estética impresionante y totalmente receptiva utilizando estilos Tailwind personalizados y animaciones fluidas."
+  },
+  "modal": {
+    "title_email": "Verificación del Idioma Francés",
+    "desc_email": "Para activar el francés, requerimos una verificación de seguridad. Ingrese su dirección de correo electrónico para recibir una OTP segura.",
+    "email_placeholder": "tu@ejemplo.com",
+    "btn_send": "Enviar Código de Verificación",
+    "btn_sending": "Enviando OTP...",
+    "title_otp": "Ingrese el Código de Seguridad",
+    "desc_otp": "Hemos enviado un código de verificación de 6 dígitos a:",
+    "otp_placeholder": "000000",
+    "btn_verify": "Verificar y Cambiar a Francés",
+    "btn_verifying": "Verificando...",
+    "btn_cancel": "Cancelar",
+    "timer_expire": "El código expira en",
+    "timer_resend": "Reenviar código en",
+    "btn_resend": "Reenviar Código",
+    "attempts_left": "intentos restantes",
+    "error_attempts": "Límite de intentos alcanzado. Solicite un nuevo código.",
+    "error_invalid_otp": "Código OTP no válido. Verifique e intente nuevamente.",
+    "success_verify": "¡Idioma cambiado a francés con éxito!"
+  }
+}

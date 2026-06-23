@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "title": "LingoSafe Multilingual",
+    "home": "Home",
+    "features": "Features",
+    "about": "About"
+  },
+  "hero": {
+    "title": "Build Without Boundaries",
+    "subtitle": "A premium production-ready experience featuring instant language localization and secure French OTP authentication.",
+    "cta": "Get Started",
+    "learn_more": "Learn More"
+  },
+  "features": {
+    "title": "Key Features",
+    "i18n_title": "Instant Translation",
+    "i18n_desc": "Switch languages instantly across English, Spanish, Hindi, Portuguese, and Chinese with state persistence.",
+    "security_title": "French Language Shield",
+    "security_desc": "Accessing French requires an OTP sent to your verified email address to maintain security standards.",
+    "design_title": "Glassmorphism UI",
+    "design_desc": "Experience a stunning, fully responsive aesthetic utilizing custom Tailwind styles and smooth animations."
+  },
+  "modal": {
+    "title_email": "French Language Verification",
+    "desc_email": "To activate French, we require a verification check. Please enter your email address to receive a secure OTP.",
+    "email_placeholder": "you@example.com",
+    "btn_send": "Send Verification Code",
+    "btn_sending": "Sending OTP...",
+    "title_otp": "Enter Security Code",
+    "desc_otp": "We have sent a 6-digit verification code to:",
+    "otp_placeholder": "000000",
+    "btn_verify": "Verify & Switch to French",
+    "btn_verifying": "Verifying...",
+    "btn_cancel": "Cancel",
+    "timer_expire": "Code expires in",
+    "timer_resend": "Resend code in",
+    "btn_resend": "Resend Code",
+    "attempts_left": "attempts remaining",
+    "error_attempts": "Maximum attempts reached. Please request a new code.",
+    "error_invalid_otp": "Invalid OTP code. Please check and try again.",
+    "success_verify": "Language changed to French successfully!"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "title": "LingoSafe 多语言",
+    "home": "首页",
+    "features": "功能特点",
+    "about": "关于我们"
+  },
+  "hero": {
+    "title": "无界构建 尽在掌控",
+    "subtitle": "高品质生产级体验，具备即时语言本地化和安全法语 OTP 身份验证功能。",
+    "cta": "立即开始",
+    "learn_more": "了解更多"
+  },
+  "features": {
+    "title": "核心功能",
+    "i18n_title": "即时语言翻译",
+    "i18n_desc": "在英语、西班牙语、印地语、葡萄牙语和中文之间即时切换，并保持状态持久化。",
+    "security_title": "法语安全防护",
+    "security_desc": "切换至法语需要将 OTP 发送至您验证过的电子邮件地址，以确保最高的安全标准。",
+    "design_title": "毛玻璃幻彩 UI",
+    "design_desc": "使用定制的 Tailwind 样式和流畅动画，体验极具现代美感且完全响应式的界面。"
+  },
+  "modal": {
+    "title_email": "法语语言安全验证",
+    "desc_email": "为了激活法语，我们需要进行安全验证。请输入您的电子邮件地址以接收安全的 OTP 验证码。",
+    "email_placeholder": "you@example.com",
+    "btn_send": "发送验证码",
+    "btn_sending": "正在发送 OTP...",
+    "title_otp": "输入安全验证码",
+    "desc_otp": "我们已向以下地址发送了 6 位数字验证码：",
+    "otp_placeholder": "000000",
+    "btn_verify": "验证并切换为法语",
+    "btn_verifying": "正在验证...",
+    "btn_cancel": "取消",
+    "timer_expire": "验证码失效倒计时",
+    "timer_resend": "重新发送倒计时",
+    "btn_resend": "重新发送验证码",
+    "attempts_left": "剩余尝试次数",
+    "error_attempts": "已达到最大尝试次数。请重新获取验证码。",
+    "error_invalid_otp": "验证码无效，请检查并重试。",
+    "success_verify": "语言已成功切换为法语！"
+  }
+}

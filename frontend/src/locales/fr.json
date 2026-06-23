@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "title": "LingoSafe Multilingue",
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "about": "À Propos"
+  },
+  "hero": {
+    "title": "Bâtir Sans Frontières",
+    "subtitle": "Une expérience haut de gamme prête pour la production avec localisation instantanée de la langue et authentification OTP française sécurisée.",
+    "cta": "Démarrer",
+    "learn_more": "En Savoir Plus"
+  },
+  "features": {
+    "title": "Fonctionnalités Clés",
+    "i18n_title": "Traduction Instantanée",
+    "i18n_desc": "Basculez instantanément de langue entre l'anglais, l'espagnol, l'hindi, le portugais et le chinois avec persistance d'état.",
+    "security_title": "Bouclier de Langue Française",
+    "security_desc": "L'accès au français nécessite un OTP envoyé à votre adresse e-mail vérifiée afin de maintenir les normes de sécurité.",
+    "design_title": "Interface Glassmorphism",
+    "design_desc": "Découvrez une esthétique époustouflante et entièrement adaptative grâce à des styles Tailwind personnalisés et des animations fluides."
+  },
+  "modal": {
+    "title_email": "Vérification de la Langue Française",
+    "desc_email": "Pour activer le français, nous exigeons un contrôle de sécurité. Veuillez saisir votre adresse e-mail pour recevoir un OTP sécurisé.",
+    "email_placeholder": "vous@exemple.com",
+    "btn_send": "Envoyer le Code de Vérification",
+    "btn_sending": "Envoi de l'OTP...",
+    "title_otp": "Saisir le Code de Sécurité",
+    "desc_otp": "Nous avons envoyé un code de vérification à 6 chiffres à :",
+    "otp_placeholder": "000000",
+    "btn_verify": "Vérifier et Passer au Français",
+    "btn_verifying": "Vérification...",
+    "btn_cancel": "Annuler",
+    "timer_expire": "Le code expire dans",
+    "timer_resend": "Renvoyer le code dans",
+    "btn_resend": "Renvoyer le Code",
+    "attempts_left": "tentatives restantes",
+    "error_attempts": "Nombre maximum de tentatives atteint. Veuillez demander un nouveau code.",
+    "error_invalid_otp": "Code OTP invalide. Veuillez vérifier et réessayer.",
+    "success_verify": "Langue changée en français avec succès !"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "title": "LingoSafe Multilíngue",
+    "home": "Início",
+    "features": "Recursos",
+    "about": "Sobre"
+  },
+  "hero": {
+    "title": "Construir Sem Fronteiras",
+    "subtitle": "Uma experiência premium pronta para produção, com localização instantânea de idiomas e autenticação OTP segura em francês.",
+    "cta": "Começar",
+    "learn_more": "Saiba Mais"
+  },
+  "features": {
+    "title": "Principais Recursos",
+    "i18n_title": "Tradução Instantânea",
+    "i18n_desc": "Altere os idiomas instantaneamente entre inglês, espanhol, híndi, português e chinês com persistência de estado.",
+    "security_title": "Escudo de Idioma Francês",
+    "security_desc": "O acesso ao francês requer um OTP enviado ao seu endereço de e-mail verificado para manter os padrões de segurança.",
+    "design_title": "IU Glassmorphism",
+    "design_desc": "Experimente uma estética impressionante e totalmente responsiva usando estilos Tailwind personalizados e animações suaves."
+  },
+  "modal": {
+    "title_email": "Verificação do Idioma Francês",
+    "desc_email": "Para ativar o francês, solicitamos uma verificação de segurança. Digite seu endereço de e-mail para receber um OTP seguro.",
+    "email_placeholder": "voce@exemplo.com",
+    "btn_send": "Enviar Código de Verificação",
+    "btn_sending": "Enviando OTP...",
+    "title_otp": "Digite o Código de Segurança",
+    "desc_otp": "Enviamos um código de verificação de 6 dígitos para:",
+    "otp_placeholder": "000000",
+    "btn_verify": "Verificar e Mudar para Francês",
+    "btn_verifying": "Verificando...",
+    "btn_cancel": "Cancelar",
+    "timer_expire": "O código expira em",
+    "timer_resend": "Reenviar código em",
+    "btn_resend": "Reenviar Código",
+    "attempts_left": "tentativas restantes",
+    "error_attempts": "Limite de tentativas atingido. Solicite um novo código.",
+    "error_invalid_otp": "Código OTP inválido. Verifique e tente novamente.",
+    "success_verify": "Idioma alterado para francês com sucesso!"
+  }
+}
