@@ -17,19 +17,11 @@ if [ -d "frontend" ]; then
   fi
 
   if [ -f "frontend/.env" ]; then
-    # Comment out Postgres URL, uncomment SQLite URL
-    sed -i '' 's|DATABASE_URL="postgresql://|# DATABASE_URL="postgresql://|g' frontend/.env 2>/dev/null || \
-    sed -i 's|DATABASE_URL="postgresql://|# DATABASE_URL="postgresql://|g' frontend/.env
-    
-    # Ensure DATABASE_URL="file:./dev.db" is set
-    if grep -q 'file:./dev.db' frontend/.env; then
-       # already commented/exists, uncomment it
-       sed -i '' 's|# DATABASE_URL="file:|DATABASE_URL="file:|g' frontend/.env 2>/dev/null || \
-       sed -i 's|# DATABASE_URL="file:|DATABASE_URL="file:|g' frontend/.env
-    else
-       echo 'DATABASE_URL="file:./dev.db"' >> frontend/.env
-    fi
-    echo "✓ Updated DATABASE_URL to sqlite local file in frontend/.env"
+    # Remove any existing DATABASE_URL line to prevent conflicts
+    sed -i '' '/DATABASE_URL/d' frontend/.env 2>/dev/null || sed -i '/DATABASE_URL/d' frontend/.env
+    # Add absolute database URL path
+    echo "DATABASE_URL=\"file:$(pwd)/frontend/prisma/dev.db\"" >> frontend/.env
+    echo "✓ Updated DATABASE_URL to absolute sqlite path in frontend/.env"
   fi
 
   # Generate and push for frontend
@@ -51,12 +43,11 @@ if [ -d "backend" ]; then
   fi
 
   if [ -f "backend/.env" ]; then
-    sed -i '' 's|DATABASE_URL="postgresql://|# DATABASE_URL="postgresql://|g' backend/.env 2>/dev/null || \
-    sed -i 's|DATABASE_URL="postgresql://|# DATABASE_URL="postgresql://|g' backend/.env
-    
-    sed -i '' 's|# DATABASE_URL="file:|DATABASE_URL="file:|g' backend/.env 2>/dev/null || \
-    sed -i 's|# DATABASE_URL="file:|DATABASE_URL="file:|g' backend/.env
-    echo "✓ Updated DATABASE_URL to sqlite local file in backend/.env"
+    # Remove any existing DATABASE_URL line to prevent conflicts
+    sed -i '' '/DATABASE_URL/d' backend/.env 2>/dev/null || sed -i '/DATABASE_URL/d' backend/.env
+    # Add absolute database URL path
+    echo "DATABASE_URL=\"file:$(pwd)/backend/prisma/dev.db\"" >> backend/.env
+    echo "✓ Updated DATABASE_URL to absolute sqlite path in backend/.env"
   fi
 
   cd backend
